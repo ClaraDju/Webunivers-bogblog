@@ -1,0 +1,1043 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    background-color: #f4efe6;
+}
+
+.header1 {
+.øverst {
+    background-color: #e0bfb8;
+    padding: 9px;
+    display: flex;
+}
+
+.om-mig {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.ikoner {
+    margin-left: 1200px;}
+
+
+.fa {
+    color: #fff;
+    margin-left: 7px;
+    font-size: 18px; 
+}
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 0.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    
+}
+
+.navbar a {
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.subnav {
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 25px;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    color: #aa8279;
+    padding: 14px 16px;
+    background-color: #fff;
+    margin-right: 40px;
+    width: 100%;
+
+}
+
+.navbar a:hover, .subnav:hover {
+    background-color: #fff; 
+}
+
+.subnav-content {
+    display: none;
+    position:absolute;
+    left: 0;
+    background-color: #e0bfb8;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.subnav-content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    width: 18%;
+    border-right: 3px solid #fff;
+}
+
+.subnav-content a:hover {
+    background-color: #fff;
+    color: #e6b7b7;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+header #Logo {
+    height: 70px;
+  margin-left: 20px;
+
+}
+header .favoritter {
+    margin-left: 50px;
+    margin-top: 1.5%;
+}
+
+header .Anmeldelser {
+    margin-left: 80px;
+    margin-top: 1.5%;
+}
+
+header .bogklub {
+    margin-right: 80px;
+    margin-top: 1.5%;
+}
+
+header .Guides {
+    margin-top: 1.5%;
+    margin-left: 50px
+
+}
+
+.tekstiheader {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "adelle-sans", sans-serif;
+}
+
+.tekstiheader a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.overskrifter a {
+    text-decoration: none;
+    color: #aa8279;
+    font-size: 150%;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+
+}
+
+main { 
+    margin: 10px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+background-color: #f4efe6;
+border: 10px solid #fff;
+display: flexbox;
+}
+
+.about-info1 {
+    margin-left: 130px;
+    margin-top: 65px;
+    line-height: 50px;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: #aa8279;
+    background-color: #f4efe6;
+    width: 400px;
+    height: 200px;
+    border: 5px solid #fff;
+    padding: 20px;
+}
+
+.about-info h2 {
+    margin-left: 100px;
+    margin-top: 90px;
+    margin-bottom: 1px;
+    font-size: 40px;
+    width: 300px;
+    color: #aa8279;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+}
+
+
+.about-button {
+    background-color: #e0bfb8;
+    border: none;
+    padding: 12px 17px;
+    margin-left: 155px;
+    margin-top: 30px;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+}
+
+.about-box {
+    display: flex;
+    height: 330px;
+    width: 100%;
+}
+
+.about-info {
+    width: 300px;
+}
+
+.about-images {
+    display: flex;
+    gap: 2px;
+    height: 460px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.about-images img {
+    width: 30%;
+    height: auto;
+    margin: 15px;
+}
+
+
+.latest-posts {
+    background-color: #f4efe6;
+    border: 1px solid #f4efe6;
+    padding: 30px;
+    width: 40%;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.latest-posts h2 {
+    color: #e0bfb8;
+    margin-bottom: 20px;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    margin-left: 2%;
+}
+
+.book-club {
+        background-color: #fff;
+        width: 400px;
+        height: 300px;
+        border: 3px solid #e0bfb8;
+        margin: 10px;
+        display: flex;
+}
+.book-club h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.book-club p {
+    font-size: 20px;
+    margin-left: 30px;
+    color: #aa8279;
+}
+.p1 {
+    color: #aa8279;
+    font-size: 20px;
+    margin-left: 25px;
+}
+#stjernerhvid {
+    width: 150px;
+    margin-left: 35px;
+}
+
+#Bogklubbog {
+    height: 200px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.review {
+        background-color: #fff;
+        width: 400px;
+        height: 300px;
+        border: 3px solid #e0bfb8;
+        margin: 10px;
+        display:flex;
+        gap: 20px;
+}
+
+.anmeldelse-info {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.anmeldelse-info h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.anmeldelse-info p{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #aa8279;
+}
+
+#anmeldelse {
+    height: 200px;
+    width: 130px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#stjernerhvid3 {
+    width: 150px;
+}
+
+.latest-posts .book-club, .latest-posts .review {
+    margin-bottom: 20px;
+}
+
+.latest-posts h3 {
+    margin-bottom: 10px;
+    color: #aa8279;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 100;
+}
+
+.latest-posts h2 {
+    color: #aa8279;
+}
+
+.read-more {
+    background-color: #e0bfb8;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    margin-left: 65px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.read-more1 {
+    background-color: #e0bfb8;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 15px; 
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e6b7b7;
+}
+
+.mine-yndlings-bøger {
+    background-color: #f4efe6;
+    width: 100%;
+    height: 100%;
+    font-family: "adelle-sans", sans-serif;
+    display: flexbox;
+}
+
+.mine-yndlings-bøger-box{
+    color: #e0bfb8;
+      font-family: "adelle-sans", sans-serif;
+      font-size: 30px;
+      padding: 10px;
+      height: 100px;
+      width: 100%;
+      border: 8px solid #fff;
+}
+.mine-yndlings-bøger-box h2{
+    margin-left: 36%;
+}
+
+.beskrivelse {
+    position: absolute
+    float: left;
+    width: 350px;
+    height: 1350px;
+    background-color: #fff;
+    color: #aa8279;
+    border: 3px solid #e0bfb8
+}
+
+.beskrivelse h3 {
+    margin-left: 65px;
+    padding: 20px;
+    color: #333;
+}
+
+.beskrivelse h4 {
+margin-left: 50px;
+line-height: 28px;
+}
+
+.beskrivelse p {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #333;
+}
+
+#favoritter {
+height:400px;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+#everylastword {
+    width: 250px;
+}
+
+
+#Thegreatgatsby {
+    width: 250px;
+}
+
+#Fireflylane {
+    width: 250px;
+}
+
+.beskrivelse, .bøger1, .bøger2, .bøger3, .knapper1, .knapper2, .knapper3  {
+    width: 25%;
+    float: left;
+    margin-right: 10%;
+}
+
+#knap1 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#knap2 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#knap3 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#knap4 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px; 
+}
+
+#knap5 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#knap6 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#knap7 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#knap8 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#knap9 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.bøger1 {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.bøger2 {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+#evelynhugo {
+    width: 250px;
+}
+
+#Lysetvimistede {
+    width: 250px;
+}
+
+#Thenightcircus {
+    width: 250px;
+}
+
+.bøger3 {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+#Thepictureofdoriangray {
+    width: 250px;
+}
+
+#wherethecrawdadssing {
+    width: 250px;
+}
+
+#thehateyougive {
+    width: 250px;
+}
+
+#Fireflylane1 {
+    width: 150px;
+    margin-right: 1px;
+    margin-top: 5px;
+}
+
+.fireflylanebillede, .fireflylaneanmeldelse {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.fireflylaneanmeldelse {
+    width: 100%;
+    background-color: #f4efe6;
+}
+.firefly-lane-anmeldelse {
+    background-color: #f4efe6;
+    border: 10px solid #fff;
+}
+
+.firefly-lane-anmeldelse h3 {
+color: #aa8279;
+padding: 50px;
+margin-left: 350px;
+font-size: 30px;
+width: 900px;
+}
+
+.fireflylanebillede {
+    border: 10px solid #fff;
+    width: 100%;
+    display: flex;
+}
+
+.firefly-lane-anmeldelse h2 {
+    color: #aa8279;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.firefly-lane-anmeldelse p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.mine-seneste-bøger {
+    color: #e0bfb8;
+      font-family: "adelle-sans", sans-serif;
+      font-size: 28px;
+      width: 100%;
+      border: 8px solid #fff;
+      height: 100px;
+      padding: 10px;
+
+}
+
+.mine-seneste-bøger h2{
+margin-left: 450px;
+}
+
+.minesenestebøger {
+    background-color: #f4efe6;
+    width: 100%;
+    height: 100%;
+    font-family: "adelle-sans", sans-serif;
+}
+
+.athousandboy {
+    width: 100%;
+    height: 200px;
+    background-color: #f4efe6;
+    border: 5px solid #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+#athousandboykisses {
+height: 190px;
+}
+
+.anmeldelseknap {
+    margin-left: 515px;
+    margin-bottom: 40px;
+    height: 60px;
+    width: 150px;
+    background-color: #e0bfb8;
+    border: #fff;
+    color: #fff;
+}
+
+.minesenestebøger h3 {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 525px;
+    font-size: 25px;
+    color: #aa8279;
+
+}
+
+.thefivepeople {
+    width: 100%;
+    height: 200px;
+    background-color: #f4efe6;
+    border: 5px solid #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+.aceofspades {
+    width: 100%;
+    height: 200px;
+    background-color: #f4efe6;
+    border: 5px solid #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+.notimeforgoodbye {
+    width: 100%;
+    height: 200px;
+    background-color: #f4efe6;
+    border: 5px solid #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+.theybothdie {
+    width: 100%;
+    height: 200px;
+    background-color: #f4efe6;
+    border: 5px solid #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+.paula {
+    width: 100%;
+    height: 200px;
+    background-color: #f4efe6;
+    border: 5px solid #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+.athousandboyanmeldelse {
+    width: 100%;
+    background-color: #f4efe6;
+}
+
+.a-thousand-boy-anmeldelse {
+    background-color: #f4efe6;
+    border: 10px solid #fff;
+}
+
+.a-thousand-boy-anmeldelse h3 {
+    color: #aa8279;
+    padding: 50px;
+    margin-left: 300px;
+    font-size: 30px;
+    width: 900px;
+}
+
+.athousandboyoverskrift {
+    width: 1410px;
+    border: 10px solid #fff;
+display: flex;
+}
+
+.a-thousand-boy-anmeldelse h2 {
+    color: #aa8279;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.a-thousand-boy-anmeldelse p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.velkommen {
+    border-radius: 50px;
+    height: 320px;
+    width: 450px;
+    color: #aa8279;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 5px solid #fff;
+    
+}
+
+.velkommen h2, .velkommen h3{
+    font-family: cursive;
+font-style: italic;
+font-weight: 400;
+font-size: 40px;
+width: 300px;
+}
+
+.velkommen h2 {
+    margin-left: 100px;
+}
+
+.velkommen h3 {
+    margin-left: 150px;
+}
+
+#logobogklub {
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+
+.velkommenogom {
+    display: flex;
+}
+
+.om-bogklubben h4 {
+    color: #aa8279;
+    font-style:normal;
+    font-size: 20px;
+
+}
+
+.om-bogklubben p {
+    line-height: 18px;
+    width: 500px;
+    font-size: 15px;
+}
+
+.om-bogklubben {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.månedens-bog {
+    height: 320px;
+    width: 250px;
+    border: 5px solid #fff;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.månedens-bog h2 {
+    margin-left: 28px;
+    margin-top: 15px;
+    color: #aa8279;
+    font-size: 28px;
+}
+
+#månedensbog {
+    height: 180px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.månedensbogknap {
+    width: 100px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 10px;
+    background-color: #e0bfb8;
+    color: #fff;
+    border: #fff;
+}
+
+.bunden {
+    background-color: #e0bfb8;
+    width: 1435px;
+    height: 200px;
+    display: flex;
+    gap: 300px;
+    margin-top: 40px;
+}
+
+.bunden h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.tilmeldknap {
+    width: 90px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: #fff;
+    color: #aa8279;
+
+}
+.bog-klub {
+margin-top: 7px;
+margin-left: 5px;
+}
+
+.nyheds-brev {
+    margin-left: 36px;
+    margin-top: 7px;
+}
+
+.nyhedsbrev {
+margin-left: 250px;
+margin-top: 40px;
+}
+
+
+.Bogklub {
+margin-top: 40px;
+}
+
+.Månedensbogoverskrift h3{
+    font-size: 30px;
+    margin-left: 520px;
+    color: #aa8279;
+}
+
+.Månedensbogoverskrift {
+    border: 10px solid #fff;
+    padding: 10px;
+}
+
+
+.Nattergalen {
+    width: 100%;
+    border: 5px solid #fff;
+    padding: 10px;
+}
+
+#nattergalen1 {
+    margin-top: 80px;
+    margin-left: 70px;
+    height: 350px;
+}
+
+.billedenattergalen h2{
+color: #aa8279;
+margin-left: 60px;
+width: 300px;
+}
+.billedenattergalen p{
+    margin-left: 60px;
+    width: 250px;
+    line-height: 25px;
+    margin-top: 10px;
+
+}
+.billedenattergalen h3{
+    margin-left: 100px;
+    color: #aa8279;
+    font-size: 20px;
+}
+
+.mainnattergalen {
+    display: flex;
+}
+
+.nattergalentekst h2 {
+    margin-top: 20px;
+    margin-left: 75px;
+    font-size: 40px;
+    font-style: italic;
+    color: #e0bfb8;
+}
+
+.nattergalentekst p {
+    margin-left: 75px;
+    margin-top: 20px;
+    width: 550px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.debatknap {
+    height: 70px;
+    width: 170px;
+    margin-left: 275px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #e0bfb8;
+    color: #fff;
+    border: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.goodreads h2{
+font-size: 30px;
+margin-top: 100px;
+margin-left: 90px;
+}
+.goodreads p{
+    font-size: 17px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.goodreads h3{
+font-size: 20px;
+margin-left: 150px;
+margin-top: 30px;
+}
+
+#stjernerbeige {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.goodreadsside {
+    margin-left: 150px;
+    height: 50px;
+    width: 120px;
+    color: #fff;
+    background-color: #e0bfb8;
+    border: #fff;
+    font-size: 17px;
+}
+
+.Footer h2{
+    font-size: 20px;
+    margin-left: 620px;
+    margin-top: 10px;
+}
+
+.Footer {
+    border: 2px solid #fff;
+    margin: 10px;
+    margin-right: 25px;
+}
+.Nyhedsbrevfooter {
+    margin-left: 330px;
+    margin-top: 5px;
+}
+
+.footerknap {
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: #e0bfb8;
+    border: #fff;
+    color: #fff;
+    margin-bottom: 10px;
+}
